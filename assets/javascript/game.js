@@ -34,6 +34,7 @@ while (remainingLetters>0) {
             }
         }
     }
-    //Take input from the player
-    //Update answerArray and remainingLetters for every correct guess
 }
+
+alert(answerArray.join(""));
+alert("You guessed it! The word was "+ word);
