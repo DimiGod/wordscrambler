@@ -1,3 +1,4 @@
+
 var words= [
     "yeet",
     "cookie",
@@ -34,7 +35,6 @@ while (remainingLetters>0) {
             }
         }
     }
+    alert(answerArray.join(""));
+    alert("You guessed it! The word was "+ word);
 }
-
-alert(answerArray.join(""));
-alert("You guessed it! The word was "+ word);
