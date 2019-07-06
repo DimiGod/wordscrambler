@@ -7,9 +7,12 @@ var words= [
     "red",
     "apple",
     "dollar",
-    "Baby",
-    "Turtle",
-    "Camaro"
+    "baby",
+    "turtle",
+    "camaro",
+    "entrepreneur",
+    "restaurant",
+    "burger"
 ];
 
 
