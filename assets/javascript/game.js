@@ -1,7 +1,7 @@
 // VARIABLES
 // ==========================================================================
 
-var carMakeandModel = ["Milwaukee Bucks","Detroit Pistons","Boston Celtics","Toronto Raptors","Los Angeles Lakers","Golden State Warriors","Houston Rockets","Miami Heat","Chicago Bulls","New York Knicks","Dallas Mavericks","Denver Nuggets","Cleveland Cavaliers","Philladelphia 76ers", "Phoenix Suns", "Sacremento Kings", "Indiana Pacers", "Atlanta Falcons", "Oaklahoma City Thunder", "Brooklyn Nets"];
+var nbaTeams = ["Milwaukee Bucks","Detroit Pistons","Boston Celtics","Toronto Raptors","Los Angeles Lakers","Golden State Warriors","Houston Rockets","Miami Heat","Chicago Bulls","New York Knicks","Dallas Mavericks","Denver Nuggets","Cleveland Cavaliers","Philladelphia 76ers", "Phoenix Suns", "Sacremento Kings", "Indiana Pacers", "Atlanta Falcons", "Oaklahoma City Thunder", "Brooklyn Nets"];
 
 var directionsText1 = document.getElementById("directions-text1");
 var computerChoiceText = document.getElementById("computerchoice-text");
@@ -31,8 +31,8 @@ document.onkeyup = function(event) {
     userGuess.toLocaleLowerCase();
 
     if (firstIteration == true) {
-        randomNUmber = Math.floor(Math.random() * carMakeandModel.length);
-        computerGuess = carMakeandModel[randomNUmber];
+        randomNUmber = Math.floor(Math.random() * nbaTeams.length);
+        computerGuess = nbaTeams[randomNUmber];
         
         // Create a String array and push each character into an array.
         computerGuessArray = [];
