@@ -1,7 +1,7 @@
 // VARIABLES
 // ==========================================================================
 
-var carMakeandModel = ["Ford F150","Toyota Rav4","Chevrolet Silverado","Nissan Rogue","Honda CRV","Toyota Camry","Honda Civic","Chevrolet Equinox","Toyota Corolla","Ford Escape","Honda Accord","Ford Explorer","Nissan Altima","Toyota Tacoma", "Nissan Sentra", "GMC Sierra", "Jeep Grand Cherokee", "Jeep Cherokee", "Jeep Wrangler", "Toyota Highlander"];
+var carMakeandModel = ["Milwaukee Bucks","Detroit Pistons","Boston Celtics","Toronto Raptors","Los Angeles Lakers","Golden State Warriors","Houston Rockets","Miami Heat","Chicago Bulls","New York Knicks","Dallas Mavericks","Denver Nuggets","Cleveland Cavaliers","Philladelphia 76ers", "Phoenix Suns", "Sacremento Kings", "Indiana Pacers", "Atlanta Falcons", "Oaklahoma City Thunder", "Brooklyn Nets"];
 
 var directionsText1 = document.getElementById("directions-text1");
 var computerChoiceText = document.getElementById("computerchoice-text");
